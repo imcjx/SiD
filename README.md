@@ -1,2 +1,14 @@
-# SiD
-[AAAI 2026] This is the official implementation of ”Seeing in Double: Dual-Granularity BEV Segmentation via Mamba-Driven Alignment and Polar-Decoupled Experts”
+<div align="center"> 
+
+## Seeing in Double: Dual-Granularity BEV Segmentation via Mamba-Driven Alignment and Polar-Decoupled Experts 
+## 🌟AAAI 2026🌟
+Jiaxin Cai, Rui Lin, Jingze Su, Qi Li, Wenjie Yang, Yuanlong Yu, Wenxi Liu
+</div>
+
+## Abstract
+
+Bird’s Eye View (BEV) representation has become pivotal for autonomous driving, yet existing polar coordinate-based approaches face two critical limitations: (1) distant semantic misprojection caused by radial resolution decay, and (2) region-specific geometric distortions from non-uniform polar discretization. To address these issues, we propose a novel framework addressing these challenges through three key innovations. First, we present a bilateral heterogeneous network constructs multi-granularity BEV spaces, efficiently exploiting dual-resolution visual information for distant detail preservation. Second, we employ an align-fusion strategy for multi-granularity feature aggregation. Specifically, the Mamba-Based Cross-Resolution Alignment module establishes semantic consistency for perspective features through shared state-space optimization. In the later stage, the Adaptive BEV Space Selector dynamically aggregates multigranularity BEV features. Third, we introduce a Mixture of Radial-Angular Decoupled Experts, which employs polar-aware expert routing to disentangle radial compression and angular shear distortions through specialized geometric refinement. Comprehensive experiments on nuScenes and Lyft L5 demonstrate the state-of-the-art performance of our model across various resolution settings, visibility filtering, and perception ranges.
+
+## Updates
+- [x] 12/2025, init repository.
+- [ ] 12/2025, release code.
